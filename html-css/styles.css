@@ -1,0 +1,21 @@
+body {
+    background-color: azure;
+}
+
+hr {
+    border-style: none;
+    border-color: cornflowerblue;
+    width: 8%;
+    border-style: dotted none none none;
+    border-width: 5px;
+}
+
+h1 {
+    color :steelblue;
+}
+
+h3 {
+    color :steelblue;
+    text-align: center; 
+}
+

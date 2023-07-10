@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Blogger</title>
+    <link rel="stylesheet" href="../static/css/styling.css">
+</head>
+
+<body>
+    <div class=top>
+        <h2 class="heading">Your Blog-Space</h2>
+    </div>
+    {% for blog in blog_data: %}
+    <div class="card">
+        <div class="header">
+            <h3 class="text">{{ blog.title }}</h3>
+        </div>
+        <p class="text"><em>{{ blog['subtitle'] }}</em></p>
+        <a class="text" href={{ url_for('blog1', num=blog.id) }}>Read More</a>
+    </div>
+    {% endfor %}
+
+</body>
+
+<footer>
+    <p class="footerr">Copyright {{ year }} | Built by Impulse</p>
+</footer>
+
+</html>

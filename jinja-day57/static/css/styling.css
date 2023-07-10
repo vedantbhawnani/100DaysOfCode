@@ -1,0 +1,72 @@
+body{
+    font-family: "Gill Sans", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14;
+    position: relative;
+    margin : 0;
+}
+
+.title{
+    color: grey;
+}
+
+.heading{
+    margin-left: 18%;
+    margin-top: 70px;
+}
+
+.text{
+    margin-left : 18%;
+    font-size: 20px;
+}
+
+.header .text{
+    font-size: 25px;
+}
+
+.top{
+    position: relative;
+    width : 100%;
+    height : 300px;
+    background-color :cadetblue;
+    text-align: auto;
+    width: 100%;
+    margin: 0 auto 45px 0;
+    overflow : hidden;
+    clear : both;
+}
+
+.card{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    position: relative;
+    margin-top : -150px;
+    margin-left : 250px;
+    margin-bottom: 200px;
+    background-color:aliceblue;
+    /* height : 200px; */
+    width: 1200px;
+}
+
+.blog_body{
+    font-size: 20px;
+    margin-left: 18%;
+    overflow: auto;
+    padding-right: 200px;
+}
+
+.body_div{
+    height: auto;
+}
+
+.footerr{
+    position: fixed;
+    left: 0;
+    bottom: 0;  
+    text-align: center;
+    color : white;
+    opacity: 0.6;
+    background-color: cadetblue;
+    height: auto;
+    width: 100%;
+    margin: 0 auto 0 auto;
+}
